@@ -1,0 +1,53 @@
+.app__feed-container {
+   grid-column: span 12 / span 12;
+
+   border-right: 1px solid #333;
+
+   width: 600px;
+
+   position: relative;
+}
+
+.app__feed-header {
+   justify-content: space-between;
+   color: #fff;
+   padding: 0 15px;
+   height: 53px;
+   width: 100%;
+   position: absolute;
+
+   // .app__feed-header-blur {
+   //    filter: blur(8px);
+   //    width: 100%;
+   //    height: 100%;
+   //    position: absolute;
+   //    top: 0;
+   //    left: 0;
+   // }
+
+   h2 {
+      font-family: var(--font-base);
+      font-size: 20px;
+      font-weight: 500;
+   }
+
+   svg {
+      font-size: 30px;
+   }
+}
+
+.app__feed-tweetBox {
+   margin-top: 53px;
+   align-items: flex-start;
+   .app__feed-tweetBox-img {
+      img {
+         width: 48px;
+         height: 48px;
+         border-radius: 9999px;
+      }
+   }
+
+   .app__feed-tweetBox-form {
+      flex: 1;
+   }
+}

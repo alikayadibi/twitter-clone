@@ -1,0 +1,14 @@
+.app__flex {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.App {
+   display: grid;
+   grid-template-columns: repeat(24, minmax(0, 1fr));
+
+   max-width: 1265px;
+
+   margin: 0 auto;
+}
